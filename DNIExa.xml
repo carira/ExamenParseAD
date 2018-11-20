@@ -1,0 +1,43 @@
+﻿<!-- INSTRUCCIONES - Dentro del elemento "acciones" pueden haber varios elementos 
+	"acción". - Dentro del elemento "acción" sólo hay un elemento "operaciones". 
+	- Dentro del elemento "operaciones" pueden haber varios elementos "operación". -->
+<acciones>
+	<accion nombre="Santander">
+		<operaciones>
+			<operacion>
+				<tipo>compra</tipo>
+				<cantidad>25</cantidad>
+				<precio>5.55</precio>
+			</operacion>
+			<operacion>
+				<tipo>compra</tipo>
+				<cantidad>50</cantidad>
+				<precio>5.60</precio>
+			</operacion>
+			<operacion>
+				<tipo>venta</tipo>
+				<cantidad>25</cantidad>
+				<precio>5.75</precio>
+			</operacion>
+			<operacion>
+				<tipo>compra</tipo>
+				<cantidad>25</cantidad>
+				<precio>5.70</precio>
+			</operacion>
+		</operaciones>
+	</accion>
+	<accion nombre="OHL">
+		<operaciones>
+			<operacion>
+				<tipo>compra</tipo>
+				<cantidad>50</cantidad>
+				<precio>5.02</precio>
+			</operacion>
+			<operacion>
+				<tipo>compra</tipo>
+				<cantidad>25</cantidad>
+				<precio>5.01</precio>
+			</operacion>
+		</operaciones>
+	</accion>
+</acciones>
